@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24" />
+
+    <item android:id="@+id/menu_event"
+        android:title="Event"
+        android:icon="@drawable/ic_baseline_event_24" />
+
+    <item android:id="@+id/menu_call"
+        android:title="Call"
+        android:icon="@drawable/ic_baseline_call_24" />
+
+    <item android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24" />
+
+    <item android:title="Profile">
+        <menu>
+            <item android:id="@+id/menu_login"
+                android:title="Login"
+                android:icon="@drawable/ic_baseline_login_24" />
+        </menu>
+    </item>
+
+    <item android:title="Info.">
+        <menu>
+            <item android:id="@+id/menu_share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24" />
+            <item android:id="@+id/menu_location"
+                android:title="Add Location"
+                android:icon="@drawable/ic_baseline_add_location_alt_24" />
+        </menu>
+    </item>
+
+</menu>
